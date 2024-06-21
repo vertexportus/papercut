@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pdtMakeBE", "pdtMakeBE\pdtMakeBE.vcproj", "{DFF2AB58-BE24-4C13-A50C-D73396EA7AD1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2916186B-52AA-4F28-9C13-93C1077E747B} = {2916186B-52AA-4F28-9C13-93C1077E747B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pdtImage_dll", "pdtImage_dll\pdtImage_dll.vcproj", "{2916186B-52AA-4F28-9C13-93C1077E747B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF2AB58-BE24-4C13-A50C-D73396EA7AD1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFF2AB58-BE24-4C13-A50C-D73396EA7AD1}.Debug|Win32.Build.0 = Debug|Win32
+		{DFF2AB58-BE24-4C13-A50C-D73396EA7AD1}.Release|Win32.ActiveCfg = Release|Win32
+		{DFF2AB58-BE24-4C13-A50C-D73396EA7AD1}.Release|Win32.Build.0 = Release|Win32
+		{2916186B-52AA-4F28-9C13-93C1077E747B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2916186B-52AA-4F28-9C13-93C1077E747B}.Debug|Win32.Build.0 = Debug|Win32
+		{2916186B-52AA-4F28-9C13-93C1077E747B}.Release|Win32.ActiveCfg = Release|Win32
+		{2916186B-52AA-4F28-9C13-93C1077E747B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

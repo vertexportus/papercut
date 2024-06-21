@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PDT>
+  <data type="1">
+    <image id="1">data/images/shipMain.png</image>
+    <image id="2">data/images/shipEnemy.png</image>
+  </data>
+  
+  <sets>
+    <set id="1">
+      <setlist type="1">
+        <item id="1" />
+        <item id="2" />
+      </setlist>
+    </set>
+  </sets>
+</PDT>

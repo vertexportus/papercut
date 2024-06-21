@@ -1,0 +1,25 @@
+/***********************************************************************
+
+	  PaperCut Engine (c) InsaneCows Entertainment 2006-2007
+
+		Developers: Daniel "Portus" Alves
+						( daniel.alves -at- member.igda.org )
+
+***********************************************************************/
+
+1.0 TODO LIST:
+ 
+ # Graphics
+    - abstract classes;
+    - SDL plugin;
+    
+ # Input
+    - abstract classes;
+    - Event system;
+    - SDL plugin;
+    
+ # FSM
+    - base states;
+    - factories;
+    - IFsm and cFsm;
+    - register macros;

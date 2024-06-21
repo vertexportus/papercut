@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug|Linux" />
+	<File name="include/Core/classdefs.h" open="0" top="0" tabpos="0">
+		<Cursor position="1086" topLine="33" />
+	</File>
+	<File name="include/Core/compat.h" open="0" top="0" tabpos="4">
+		<Cursor position="790" topLine="0" />
+	</File>
+	<File name="include/Core/debug.h" open="0" top="0" tabpos="0">
+		<Cursor position="407" topLine="0" />
+	</File>
+	<File name="include/Core/engine.h" open="0" top="0" tabpos="1">
+		<Cursor position="1179" topLine="27" />
+	</File>
+	<File name="include/Core/engine_structs.h" open="0" top="0" tabpos="0">
+		<Cursor position="1163" topLine="7" />
+	</File>
+	<File name="include/Core/object.h" open="0" top="0" tabpos="0">
+		<Cursor position="563" topLine="36" />
+	</File>
+	<File name="include/Core/order.h" open="0" top="0" tabpos="0">
+		<Cursor position="1806" topLine="39" />
+	</File>
+	<File name="include/Core/pointer.h" open="0" top="0" tabpos="2">
+		<Cursor position="1436" topLine="35" />
+	</File>
+	<File name="include/Core/stdstl.h" open="0" top="0" tabpos="0">
+		<Cursor position="822" topLine="6" />
+	</File>
+	<File name="include/Core/typedefs.h" open="0" top="0" tabpos="0">
+		<Cursor position="522" topLine="0" />
+	</File>
+	<File name="include/Core/types.h" open="0" top="0" tabpos="0">
+		<Cursor position="600" topLine="0" />
+	</File>
+	<File name="include/Graphic/Interfaces/igraphic.h" open="0" top="0" tabpos="0">
+		<Cursor position="1225" topLine="11" />
+	</File>
+	<File name="include/Graphic/Interfaces/isurface.h" open="0" top="0" tabpos="0">
+		<Cursor position="2387" topLine="37" />
+	</File>
+	<File name="include/Graphic/SDL/sdl_graphic.h" open="0" top="0" tabpos="0">
+		<Cursor position="1376" topLine="15" />
+	</File>
+	<File name="include/Graphic/SDL/sdl_surface.h" open="0" top="0" tabpos="0">
+		<Cursor position="2511" topLine="45" />
+	</File>
+	<File name="include/Graphic/graphic.h" open="1" top="0" tabpos="2">
+		<Cursor position="968" topLine="14" />
+	</File>
+	<File name="include/Graphic/graphtypes.h" open="0" top="0" tabpos="0">
+		<Cursor position="1195" topLine="34" />
+	</File>
+	<File name="include/Input/SDL/sdl_eventmanager.h" open="0" top="0" tabpos="0">
+		<Cursor position="464" topLine="10" />
+	</File>
+	<File name="include/Input/input.h" open="1" top="1" tabpos="3">
+		<Cursor position="682" topLine="10" />
+	</File>
+	<File name="src/Core/engine.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1090" topLine="14" />
+	</File>
+	<File name="src/Core/log.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="477" topLine="3" />
+	</File>
+	<File name="src/Core/object.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1842" topLine="49" />
+	</File>
+	<File name="src/Core/order.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1585" topLine="59" />
+	</File>
+	<File name="src/Graphic/SDL/sdl_graphic.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1470" topLine="34" />
+	</File>
+	<File name="src/Graphic/SDL/sdl_surface.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3434" topLine="27" />
+	</File>
+	<File name="src/Graphic/graphic.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="601" topLine="6" />
+	</File>
+	<File name="src/Input/SDL/sdl_eventmanager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="351" topLine="0" />
+	</File>
+	<File name="src/Input/input.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="485" topLine="2" />
+	</File>
+	<File name="src/main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="793" topLine="28" />
+	</File>
+</CodeBlocks_layout_file>

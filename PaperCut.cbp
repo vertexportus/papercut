@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PaperCut" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug|Linux">
+				<Option output="PaperCut" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-march=i386" />
+					<Add option="-Wfatal-errors" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add directory="include" />
+					<Add directory="/usr/include/SDL" />
+				</Compiler>
+				<Linker>
+					<Add library="/usr/lib/libSDL.so" />
+					<Add library="/usr/lib/libSDL_image.so" />
+					<Add library="/usr/lib/libSDLmain.a" />
+					<Add directory="/usr/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=i386" />
+			<Add option="-W" />
+			<Add option="-g" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="CodeComment.txt" />
+		<Unit filename="TODO.txt" />
+		<Unit filename="include/Core/classdefs.h" />
+		<Unit filename="include/Core/compat.h" />
+		<Unit filename="include/Core/debug.h" />
+		<Unit filename="include/Core/engine.h" />
+		<Unit filename="include/Core/engine_structs.h" />
+		<Unit filename="include/Core/functor.h" />
+		<Unit filename="include/Core/kernel.h" />
+		<Unit filename="include/Core/log.h" />
+		<Unit filename="include/Core/memory.h" />
+		<Unit filename="include/Core/object.h" />
+		<Unit filename="include/Core/order.h" />
+		<Unit filename="include/Core/pointer.h" />
+		<Unit filename="include/Core/rtti.h" />
+		<Unit filename="include/Core/singleton.h" />
+		<Unit filename="include/Core/stdstl.h" />
+		<Unit filename="include/Core/typedefs.h" />
+		<Unit filename="include/Core/types.h" />
+		<Unit filename="include/Graphic/Interfaces/igraphic.h" />
+		<Unit filename="include/Graphic/Interfaces/isurface.h" />
+		<Unit filename="include/Graphic/SDL/sdl_graphic.h" />
+		<Unit filename="include/Graphic/SDL/sdl_surface.h" />
+		<Unit filename="include/Graphic/graphic.h" />
+		<Unit filename="include/Graphic/graphtypes.h" />
+		<Unit filename="include/Input/Interfaces/ieventmanager.h" />
+		<Unit filename="include/Input/Interfaces/ieventreceiver.h" />
+		<Unit filename="include/Input/SDL/sdl_eventmanager.h" />
+		<Unit filename="include/Input/input.h" />
+		<Unit filename="include/Input/inputtypes.h" />
+		<Unit filename="src/Core/engine.cpp" />
+		<Unit filename="src/Core/kernel.cpp" />
+		<Unit filename="src/Core/log.cpp" />
+		<Unit filename="src/Core/memory.cpp" />
+		<Unit filename="src/Core/object.cpp" />
+		<Unit filename="src/Core/order.cpp" />
+		<Unit filename="src/Core/rtti.cpp" />
+		<Unit filename="src/Graphic/SDL/sdl_graphic.cpp" />
+		<Unit filename="src/Graphic/SDL/sdl_surface.cpp" />
+		<Unit filename="src/Graphic/graphic.cpp" />
+		<Unit filename="src/Input/SDL/sdl_eventmanager.cpp" />
+		<Unit filename="src/Input/input.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion>
+				<search_path add="/home/dfa/projetos/PaperCut/include" />
+			</code_completion>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,8 @@
+/***********************************************************************
+
+	  PaperCut Engine (c) InsaneCows Entertainment 2006-2007
+
+		Developers: Daniel "Portus" Alves
+						( daniel.alves -at- member.igda.org )
+
+***********************************************************************/

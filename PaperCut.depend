@@ -1,0 +1,380 @@
+# depslib dependency file v1.0
+1177450445 source:/home/dfa/projetos/PaperCut/src/Core/engine.cpp
+	"Core/engine.h"
+	"Core/kernel.h"
+	"Core/memory.h"
+
+1177450235 /home/dfa/projetos/PaperCut/include/Core/engine.h
+	"Core/singleton.h"
+	"Core/classdefs.h"
+	"Core/engine_structs.h"
+	"Core/kernel.h"
+	"Core/memory.h"
+	"Graphic/graphic.h"
+	"Input/input.h"
+
+1177444650 /home/dfa/projetos/PaperCut/include/Core/singleton.h
+	"Core/debug.h"
+
+1177447029 /home/dfa/projetos/PaperCut/include/Core/debug.h
+	<cassert>
+
+1177449988 /home/dfa/projetos/PaperCut/include/Core/classdefs.h
+
+1177449431 /home/dfa/projetos/PaperCut/include/Core/engine_structs.h
+	"Core/typedefs.h"
+	"Graphic/graphtypes.h"
+	"Input/inputtypes.h"
+
+1177446113 /home/dfa/projetos/PaperCut/include/Core/typedefs.h
+
+1177444669 /home/dfa/projetos/PaperCut/include/Core/kernel.h
+	"Core/stdstl.h"
+	"Core/typedefs.h"
+	"Core/classdefs.h"
+	"Core/engine_structs.h"
+
+1177446112 /home/dfa/projetos/PaperCut/include/Core/stdstl.h
+	<list>
+	<map>
+
+1177444680 /home/dfa/projetos/PaperCut/include/Core/memory.h
+	"Core/typedefs.h"
+	"Core/debug.h"
+	<cstdarg>
+	<cstdlib>
+	<cstdio>
+
+1177445030 source:/home/dfa/projetos/PaperCut/src/Core/kernel.cpp
+	"Core/kernel.h"
+	"Core/stdstl.h"
+	"Core/object.h"
+	"Core/types.h"
+	"Core/memory.h"
+	"Core/engine.h"
+
+1177446409 /home/dfa/projetos/PaperCut/include/Core/object.h
+	"Core/stdstl.h"
+	"Core/typedefs.h"
+	"Core/classdefs.h"
+	"Core/pointer.h"
+	"Core/debug.h"
+	"Core/rtti.h"
+
+1177446157 /home/dfa/projetos/PaperCut/include/Core/pointer.h
+	"Core/typedefs.h"
+
+1177444779 /home/dfa/projetos/PaperCut/include/Core/rtti.h
+	"Core/typedefs.h"
+
+1177446138 /home/dfa/projetos/PaperCut/include/Core/types.h
+
+1177446278 source:/home/dfa/projetos/PaperCut/src/Core/log.cpp
+	"Core/log.h"
+	<cstdarg>
+	"Core/compat.h"
+
+1177444745 /home/dfa/projetos/PaperCut/include/Core/log.h
+	"Core/typedefs.h"
+
+1177447068 /home/dfa/projetos/PaperCut/include/Core/compat.h
+	<cstdio>
+	<cstring>
+	<conio.h>
+
+1177445038 source:/home/dfa/projetos/PaperCut/src/Core/memory.cpp
+	"Core/memory.h"
+
+1177446933 source:/home/dfa/projetos/PaperCut/src/Core/object.cpp
+	"Core/object.h"
+	"Core/debug.h"
+	"Core/types.h"
+	"Core/kernel.h"
+	"Core/engine.h"
+	"Core/memory.h"
+
+1177445058 source:/home/dfa/projetos/PaperCut/src/Core/rtti.cpp
+	"Core/rtti.h"
+
+1177446825 source:/home/dfa/projetos/PaperCut/src/Core/order.cpp
+	"Core/order.h"
+	"Core/memory.h"
+
+1177444766 /home/dfa/projetos/PaperCut/include/Core/order.h
+	"Core/typedefs.h"
+
+1177445104 source:/home/dfa/projetos/PaperCut/src/Graphic/SDL/sdl_graphic.cpp
+	"Graphic/SDL/sdl_graphic.h"
+	<cstdio>
+	"Core/debug.h"
+	"Core/compat.h"
+	"Core/memory.h"
+
+1177449798 /home/dfa/projetos/PaperCut/include/Graphic/SDL/sdl_graphic.h
+	"Core/typedefs.h"
+	"Graphic/Interfaces/igraphic.h"
+	"Graphic/SDL/sdl_surface.h"
+
+1177449752 /home/dfa/projetos/PaperCut/include/Graphic/Interfaces/igraphic.h
+	"Core/typedefs.h"
+	"Core/classdefs.h"
+	"Core/memory.h"
+	"Graphic/Interfaces/isurface.h"
+
+1177449658 /home/dfa/projetos/PaperCut/include/Graphic/Interfaces/isurface.h
+	"Core/typedefs.h"
+	"Graphic/graphtypes.h"
+
+1177446788 /home/dfa/projetos/PaperCut/include/Graphic/graphtypes.h
+
+1177449677 /home/dfa/projetos/PaperCut/include/Graphic/SDL/sdl_surface.h
+	"SDL.h"
+	"Core/typedefs.h"
+	"Core/singleton.h"
+	"Graphic/Interfaces/isurface.h"
+
+1166666775 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1166666775 /usr/include/SDL/SDL_platform.h
+
+1166666776 /usr/include/SDL/begin_code.h
+
+1166666776 /usr/include/SDL/close_code.h
+
+1166666775 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_keysym.h
+
+1166666775 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666775 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1166666775 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1166666776 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1177445121 source:/home/dfa/projetos/PaperCut/src/Graphic/SDL/sdl_surface.cpp
+	"Graphic/SDL/sdl_surface.h"
+	"SDL_image.h"
+	"Core/debug.h"
+
+1157139925 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1177449944 source:/home/dfa/projetos/PaperCut/src/Graphic/graphic.cpp
+	"Graphic/graphic.h"
+	"Core/memory.h"
+	"Graphic/SDL/sdl_graphic.h"
+
+1177449934 /home/dfa/projetos/PaperCut/include/Graphic/graphic.h
+	"Core/memory.h"
+	"Core/typedefs.h"
+	"Core/singleton.h"
+	"Graphic/graphtypes.h"
+	"Graphic/Interfaces/igraphic.h"
+
+1177447084 source:/home/dfa/projetos/PaperCut/src/Input/SDL/sdl_eventmanager.cpp
+	"Input/SDL/sdl_eventmanager.h"
+	"SDL.h"
+	"Core/log.h"
+	"Input/Interfaces/ieventreceiver.h"
+
+1177447078 /home/dfa/projetos/PaperCut/include/Input/SDL/sdl_eventmanager.h
+	"Core/typedefs.h"
+	"Input/Interfaces/ieventmanager.h"
+	"SDL.h"
+
+1177444952 /home/dfa/projetos/PaperCut/include/Input/Interfaces/ieventmanager.h
+	"Core/typedefs.h"
+	"Input/inputtypes.h"
+
+1177444978 /home/dfa/projetos/PaperCut/include/Input/inputtypes.h
+	"Core/classdefs.h"
+
+1177444957 /home/dfa/projetos/PaperCut/include/Input/Interfaces/ieventreceiver.h
+	"Core/typedefs.h"
+	"Input/inputtypes.h"
+
+1177448370 source:/home/dfa/projetos/PaperCut/src/main.cpp
+	"SDL.h"
+	"Core/compat.h"
+	"Core/debug.h"
+	"Core/typedefs.h"
+	"Core/pointer.h"
+	"Core/object.h"
+	"Core/memory.h"
+	"Core/engine.h"
+	"Graphic/graphic.h"
+	"Input/input.h"
+
+1177449961 source:/home/dfa/projetos/PaperCut/src/Input/input.cpp
+	"Input/input.h"
+	"Input/SDL/sdl_eventmanager.h"
+
+1177450465 /home/dfa/projetos/PaperCut/include/Input/input.h
+	"Core/typedefs.h"
+	"Core/singleton.h"
+	"Input/inputtypes.h"
+
